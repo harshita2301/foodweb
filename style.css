@@ -1,0 +1,445 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.navbar-brand{
+   font-size: 35px;
+    color: rgb(111, 236, 27);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+    color: rgb(134, 218, 32);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik',sans-serif;
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: rgb(52, 228, 17);
+}
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(16, 188, 11);
+}
+.btn0{
+    height: 40x;
+    width: 50%;
+    outline: none;
+    border: none;
+    background: rgb(15, 186, 29);
+    color: white;
+    border-radius:50px;
+    font-weight: 700
+}
+.btn0:hover{
+    background-color: rgb(23, 218, 23);
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+    background-color: white;
+   height: auto;
+   width: auto;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.main{
+    background-image: url(images/main.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+font-size: 70px;
+font-weight: 700;
+
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(17, 204, 39);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(160, 190, 10);
+}
+.main h1{
+    color:  rgb(48, 228, 48);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.main h1:hover{
+    color:rgb(6, 243, 6);
+}
+
+.main p{
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/* ------About our organic----- */
+.about h1{
+    color:  rgb(17, 213, 17);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+.about h1:hover{
+    color:rgb(6, 243, 6);
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(13, 213, 13);
+    display: inline-block;
+}
+.about p{
+    color: rgb(105, 102, 102);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+.about{
+    background: url(images/abut.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;}
+    .mbtn1{
+        height: 80px;
+        width: 60%;
+        border: none;
+        outline: none;
+        background-color: rgb(17, 204, 39);
+        color: white;
+        font-weight: 700;
+        border-radius: 60px;
+    }
+    .mbtn1:hover{
+        background-color: rgb(145, 219, 33);
+    }
+
+
+/* -------Welcome------ */
+.welcome{
+    background: rgb(20, 186, 20);
+}
+
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h1{
+    color:  white;
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+   .welcome h1:hover{
+       color: red
+   }
+   .welcome card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+   }
+   .welcome i{
+    font-size: 45px;
+    color: rgb(13, 213, 13);
+   }
+   .welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+   }
+   .welcome p{
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   }
+   .card h2{
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .card p{
+    font-family: 'Times New Roman', Times, serif;
+   }
+   .welcome .card:hover{
+    background-color: rgb(250, 217, 6);
+    color: white;
+}
+.welcome.card:hover .per1{
+    color: white;
+}
+
+   /* -------product------- */
+
+   .line4{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(13, 213, 13);
+    display: inline-block;
+}
+   .product h1{
+    color: rgb(13, 213, 13);
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+    }
+    .product h1:hover{
+        color: rgb(249, 63, 7);
+    }
+   .product p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product.card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    }
+    
+    
+  .product .card-body{
+    border: 1px dashed rgb(190, 185, 185);
+  }
+
+  .btnc{
+    height: 40px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(186, 183, 183);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btnc:hover{
+    background-color: rgb(4, 10, 0);   
+}
+
+.btnb{
+    height: 40px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 222, 21);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    
+}
+.btnb:hover{
+    background-color: rgb(24, 107, 18);
+}
+.mbtn1{
+    height: 40px;
+    width: 30%;
+
+}
+
+/* =======Discount======= */
+
+.discount{
+    background: rgb(16, 188, 16);
+    color: white;
+}
+.dbtn{
+    height: 30px;
+    width: 10%;
+    border-radius: 50px;
+}
+
+/* =======Store======== */
+
+.line5{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(13, 213, 13);
+    display: inline-block;
+}
+   .store h1{
+    color: rgb(13, 213, 13);
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    .store h1:hover{
+        color: red;
+    }
+   .store p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+.store .card:hover{
+    background-color: rgb(22, 204, 22);
+    color: white;
+}
+.store.card:hover .per1{
+    color: white;
+}
+
+
+/* ============seller======== */
+
+.seller i{
+    color: orange;
+}
+
+
+.seller .sbtn{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(17, 204, 39);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.seller .sbtn:hover{
+    background-color: rgb(145, 219, 33);
+}
+/* -----contact------ */
+.contact{
+    background-image: url(images/cont.jpg);
+     background-size:cover;
+    height: 90vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.contact .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    background: rgb(164, 247, 92);
+}
+
+
+
+
+    /* =====Footer====== */
+    .footer{
+        background-color: black;
+        color: white;
+    }
+    .sbtn{
+        height: 45px;
+        width: 100px;
+        background: white;
+        margin-left: -10px;
+        border: 2px solid white;
+        font-weight: 600;
+    }
+    .footer input{
+        height: 45px;
+        width: 55%;
+        border: 2px solid white;
+        outline: none;
+        background: black;
+        color: white;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+     .footer::placeholder{
+        color: white;
+     }
+      .footer p{
+        margin: 0;
+
+      }
+
+
+
+
+      .class1 h1{
+background-color: greenyellow;
+      }
+      .read{
+        
+
+        height: 200px;
+        width: 100%;
+        border: none;
+        outline: none;
+       
+        color: rgb(225, 19, 19);
+        font-weight: 700;
+        border-radius: 60px;
+        text-align: center;
+        flex: auto;
+      }
+
+      .class1 p{
+        background: rgb(213, 240, 195);
+        color: rgb(105, 102, 102);
+        font-weight: 700;
+        font-family:Georgia, 'Times New Roman', Times, serif
+        
+        }
+
+
+
+        /* -----------food details--------- */
+        .details h1{
+            color:  rgb(17, 213, 17);
+            font-weight: 700;
+            font-family:Georgia, 'Times New Roman', Times, serif
+            }
+            .details h1:hover{
+            color:rgb(6, 243, 6);
+        }
+        .line{
+            height: 6px;
+            width: 30%;
+            background: rgb(13, 213, 13);
+            display: inline-block;
+        }
+        .details p{
+            color: rgb(105, 102, 102);
+            font-weight: 700;
+            font-family:Georgia, 'Times New Roman', Times, serif
+            }
+        
+            .details{
+           
+            background: url(images/abut.jpg);
+            
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        }
+
+
+
+       
+
